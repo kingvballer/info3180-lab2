@@ -1,0 +1,37 @@
+#full{
+    background-color:#00FFFF;
+    position:relative;
+    height:320px;
+    width:420px;
+}
+
+#full2{
+    float:right
+}
+
+#pic{
+    float:left;
+    padding:5px 5px 5px 5px;
+    margin:0px 15px 15px 0px;
+}
+#name{
+    
+    padding:5px 0px 0px 20px ;
+    border-style:solid;
+    border-color:black;
+}
+#date{
+    
+    padding:5px 0px 0px 20px ;
+    border-style:solid;
+    border-color:black;
+}
+#info{
+    
+    padding:5px 0px 0px 20px ;
+    border-style:solid;
+    border-color:black;
+}
+
+
+

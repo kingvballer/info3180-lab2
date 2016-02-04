@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block css %}
+<link rel="stylesheet" href="/static/css/profile.css" type="text/css" />
+{% endblock %}
+
+{% block main %}
+<div id = "full">
+    <div id = "pic">
+        <img src = "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSTGvraN0_4-fQ3dTMC4jCEDEMuSJVb0obeE1MjJERFZ70cpPFh"/>
+    </div>
+    <div id = "full2">
+        <div id = "name">
+            <p>Alrick Brown</p>
+        </div>
+        <div id = "date">
+            <p>Today is: {{today}}</p>
+        </div>
+        <div id = "info">
+            <p>Username: MorphGuy</p>
+            <p>ID:  600032234242</p>
+            <p>SEX: Male</p>
+            <p>AGE: 10</p>
+            <p>Highest Score: 120</p>
+            <p>TDollars: 200</p>
+        </div>
+    </div>
+</div>
+{% endblock %}
